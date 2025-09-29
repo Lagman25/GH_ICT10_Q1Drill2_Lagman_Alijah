@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Drill 2</title>
+</head>
+<body>
+    <form>
+        <p>Name:</p>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <p>Age:</p>
+        <input type="number" id="age" placeholder="Enter your age"><br>
+        <p>School:</p>
+        <input type="text" id="School" placeholder="Enter your School"><br>
+        <input type="button" py-click="generate_message" value="Generate Message">
+    </form>
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
